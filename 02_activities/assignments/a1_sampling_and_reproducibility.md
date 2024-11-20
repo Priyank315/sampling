@@ -10,10 +10,26 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: PRIYANK SRIVASTAVA
 
 ```
-Please write your explanation here...
+For identifying sampling methods:
+1. For infection sampling: A sample of individuals is infected based on a predefined attack rate (ATTACK_RATE = 0.10).
+The code uses np.random.choice() to randomly select individuals to infect.
+Function: np.random.choice() shows it's random sampling
+2. Primary contact tracing: randomly decide which infected people get traced
+This looks like a Bernoulli sampling: for each infected individual, a random draw determines if they are traced.
+3.Secondary contact tracing based on event attendance
+All infected individuals at flagged events are marked as traced. The Sampling: Deterministic after the primary tracing outcome.
+
+
+When comparing the sampling methods used in this simulation, it matches the concepts described in Andrew Whitby's blog post.
+
+To ensure the simulation results are consistent across runs, I'll modify the code to make it reproducible by setting a random seed. This will fix the randomness in np.random operations.
+
+Observations:
+The output resembles the intended pattern from Whitby's analysis, although the smaller sample size may lead to a broader spread and higher variability compared to a 50,000-iteration run.
+The distinction between infections originating from weddings and those traced to weddings can still be observed, aligning with the concept of sampling bias.
 
 ```
 
