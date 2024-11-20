@@ -16,30 +16,30 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the key reasons behind the high turnover rate at the company, particularly in entry- and lower-level positions. The aim is to gather insights on employee satisfaction, workplace culture, and factors that might influence an employee’s decision to stay or leave the company.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
+
 ```
-write your answer here...
+Target Population: All employees who have recently left or are currently working at entry- and lower-level positions at the tech company.
+Sampling Frame: A list of current and former employees who held entry- and lower-level positions within the last 12 months.
+Sampling Units: Individual employees (both current and former) from the target population.
+Sampling Strategy: Stratified random sampling to ensure representation from different departments, considering both current employees and those who have recently left. This approach will allow for comparisons between departments and identify trends specific to certain teams.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. On a scale of 1 to 10, how satisfied were you with your overall experience working at the company?
+2. What were the primary factors that influenced your decision to leave (or consider leaving) the company? (Select all that apply: Compensation, Work-life balance, Career advancement, Company culture, Management, Job expectations, Other)
+3. What changes would you recommend to improve employee satisfaction within the company?
+4. In your opinion, how effective was the communication between management and employees?
+5. How would you rate the company's support for career development and professional growth?
+6. How would you describe the company’s work-life balance?
 ```
 
 ## Rubric
