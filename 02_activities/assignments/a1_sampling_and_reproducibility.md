@@ -1,29 +1,51 @@
-# ASSIGNMENT: Sampling and Reproducibility in Python
+# Assignment: Questionnaire Design (Part A)
 
-Read the blog post [Contact tracing can give a biased sample of COVID-19 cases](https://andrewwhitby.com/2020/11/24/contact-tracing-biased/) by Andrew Whitby to understand the context and motivation behind the simulation model we will be examining.
+## Requirements
+Select one of the scenarios below and design a survey to meet the need(s) outlined in the prompt.
 
-Examine the code in `whitby_covid_tracing.py`. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
+1.	In two to three sentences, describe the purpose of your survey
+2.	Describe your target population, sampling frame, sampling units, and overall sampling strategy.
+3.	Write a 5-10 question survey to address your chosen scenario below.
 
-Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
 
-Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
+### Scenarios
+1.	You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
+2.	You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
+3.	You are a student researcher in the sociology department at the University of Toronto. You are working on a research project that concerns the relationship between music taste and age. This involves both comparisons between different people of different ages and comparisons of the same individual at different ages during their lifetime. You wish to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music. Your results will be written into an academic paper that you hope to publish.
 
-Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Your Changes
+
+The number of your chosen topic: `1`
+
+Describe the purpose of your survey:
+```
+The purpose of this survey is to identify the key reasons behind the high turnover rate at the company, particularly in entry- and lower-level positions. The aim is to gather insights on employee satisfaction, workplace culture, and factors that might influence an employee’s decision to stay or leave the company.
+```
+
+Describe your target population, sampling frame, sampling units, and observational units:
 
 ```
-Please write your explanation here...
-
+Target Population: All employees who have recently left or are currently working at entry- and lower-level positions at the tech company.
+Sampling Frame: A list of current and former employees who held entry- and lower-level positions within the last 12 months.
+Sampling Units: Individual employees (both current and former) from the target population.
+Sampling Strategy: Stratified random sampling to ensure representation from different departments, considering both current employees and those who have recently left. This approach will allow for comparisons between departments and identify trends specific to certain teams.
 ```
 
+Your 5-10 question survey:
+```
+1. On a scale of 1 to 10, how satisfied were you with your overall experience working at the company?
+2. What were the primary factors that influenced your decision to leave (or consider leaving) the company? (Select all that apply: Compensation, Work-life balance, Career advancement, Company culture, Management, Job expectations, Other)
+3. What changes would you recommend to improve employee satisfaction within the company?
+4. In your opinion, how effective was the communication between management and employees?
+5. How would you rate the company's support for career development and professional growth?
+6. How would you describe the company’s work-life balance?
+```
 
-## Criteria
+## Rubric
 
-|Criteria|Complete|Incomplete|
-|--------|----|----|
-|Altercation of the code|The code changes made, made it reproducible.|The code is still not reproducible.|
-|Description of changes|The author explained the reasonings for the changes made well.|The author did not explain the reasonings for the changes made well.|
+-	All required components are present and complete **Complete / Incomplete**
+-	Choice of sampling strategy is justified and related to survey purpose **Complete / Incomplete**
 
 ## Submission Information
 
@@ -31,15 +53,14 @@ Please write your explanation here...
 
 ### Submission Parameters:
 * Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
-* The branch name for your repo should be: `sampling-and-reproducibility`
+* The branch name for your repo should be: `questionnaire-a`
 * What to submit for this assignment:
-    * This markdown file (sampling_and_reproducibility.md) should be populated.
-    * The `whitby_covid_tracing.py` should be changed.
+    * This markdown file (questionnaire_design_part_a.md) should be populated and should be the only change in your pull request.
 * What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/sampling/pull/<pr_id>`
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `sampling-and-reproducibility`.
+- [ ] Create a branch called `questionnaire-a`.
 - [ ] Ensure that the repository is public.
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
 - [ ] Verify that the link is accessible in a private browser window.
